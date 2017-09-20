@@ -1,0 +1,175 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8"> 
+    <title>Sound Visualization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+     maximum-scale=1.0, minimum-scale=1.0"/>
+
+</head>
+
+<body>
+
+<header>
+
+<a href="./index.html">Sound Visualization</a>
+
+</header>   
+
+
+
+<nav  class="desktop">
+         <li><a href="./lala land.html" >Sound Visualization</a></li>
+        <li><a href="./beginagain.html" >Reference</a></li>
+
+
+
+</nav>
+
+
+<article>
+     <h3>계절별 Sound Visualization</h3>
+
+    
+     <h4><mark>봄.여름.가을.겨울 4가지 테마</h4></mark> 
+
+    <p>음악을 좋아해서 저번 학기에 이어 사운드 관련된 걸 해보고 싶었습니다.
+       단순히 사운드를 시각화 하는 것 보다 테마가 있으면 좋을 것 같다고 생각했고   
+       4계절의 시각적, 청각적 느낌을 표현해 보려고 합니다.
+
+
+
+    <p>-각각의 계절에 맞는 배경 일러스트 <br>
+       -요소들을 움직이면 소리 조절 가능<br>
+       -스크롤을 하면 다른 계절 테마로 이동 가능<br>
+ 
+
+
+     <h4>레퍼런스</h4>
+
+      <img src="./reference_1.jpg">
+      <img src="./reference_2.jpg">
+  
+
+<footer>
+  <hr>
+  <p><span class="bold">Sound visualization</span><br>
+  copyright&copy;2017 <a href="http://limp0417.cafe24.com/">limp0417.cafe24.com</a></p>
+</footer>
+
+</article>  
+</body>
+
+
+
+  <style>
+*{font-family: 'Spoqa Han Sans', 'Sans-serif'; }
+    body,header,nav, ul{margin:0; padding:0;}
+    
+    body{background:#fffdf3; height: auto;}
+    
+
+    header{width: 100%;
+           box-shadow: 1px 1px 3px #e5e2df;
+           background: white ;
+           top:0; left:0;
+           position:fixed;
+           margin-bottom: 0;
+           height: 50px;
+           padding-left: 20px;
+           margin: 0; padding: 0;
+           z-index: 9999;
+           opacity:0.5;}
+     
+
+    header a{padding-left: 40px;
+             line-height: 50px;
+             font-weight: 500;
+             margin:0;
+             color: black;
+             z-index: 5;
+             font-size: 1.1em;
+             text-decoration: none;}
+
+
+    header:hover{opacity: 0.8;}
+
+
+  
+    nav{transition: left 1s; 
+      width: 180px; 
+       position:absolute;
+       top:6em; 
+       margin-left: 40px;
+       text-decoration: none;
+       list-style-type: none;
+       z-index: 8888;
+       margin-bottom: 100px; } 
+       *{box-sizing: border-box;}
+    
+    li{opacity: 0.5;
+       margin-top: 40px; 
+       display: block;
+       float: left;
+       width:400px;}     
+
+    li div.text{height:30px;
+       width:200px;
+       font-size: 0.9em;
+       font-weight: 500;
+       float:left;}
+
+    li a{color:black; 
+         text-decoration: none; }
+
+
+    li:hover{opacity:1;
+             font-weight: bold;}
+
+    a{text-decoration: none;}
+    
+
+    article{position: absolute; 
+             left:calc(50% - 200px);
+             top: 8em;
+             width: 700px; 
+             margin-bottom: 200px;}
+    article mark{background: #ffdc83;}
+    article h3{color:#191919; 
+               margin:0 auto; 
+               margin-bottom:7em;}  
+    article h4{margin-top: 7em;
+               margin-bottom:40px; }  
+    article a{text-decoration: none;
+              color:black;}          
+    article p{padding-top: 20px;
+              font-size:1em; 
+              font-weight: 500;
+              color:#191919;
+              line-height: 1.9;
+              word-break: keep-all;
+              margin-bottom: 0px;
+              width:700px;}         
+    article img{width:700px;
+                margin-top:0px;} 
+    article li{opacity: 1;}            
+    
+    iframe{width:700px;
+           margin:0 auto; 
+           margin-top:2em;} 
+  
+
+
+footer{clear:both;
+       width:700px; 
+       margin:0 auto;
+       height: 100px; 
+       text-align: left; 
+       margin-top: 10em;}
+footer p{margin-top: 2em;}
+footer a{text-decoration: none; 
+         color:black;}
+footer a:hover {color: gray;}
+footer span{font-weight: bold;}
+
+
